@@ -1,0 +1,26 @@
+/* /* .navbar-warning .navbar-nav .nav-link{
+    color: rgb(255,255,255);
+    font-weight: 400;
+} */
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    color: rgb(255,255,255);
+    font-weight: 400;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row img{
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.row img:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-filter: grayscale(100%) blur(1px);
+  }
